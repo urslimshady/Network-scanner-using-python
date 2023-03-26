@@ -1,6 +1,6 @@
 # Network-scanner-using-python
 
-Port scanning can be considered as a monitoring(suvellience) tool which is used in order to locate the open ports available on a particular host.
+Port scanning can be considered as a monitoring(survellience) tool which is used in order to locate the open ports available on a particular host.
 
 Types of information that can be expected after running the port scanner.
 1. Open Ports informations
