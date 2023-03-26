@@ -1,3 +1,5 @@
+#python code snippet to ping a system to get opened ports by sending ICMP packets.
+#author @Rohit
 import os
 import platform
 
