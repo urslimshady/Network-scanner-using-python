@@ -7,9 +7,6 @@ node {
             checkout scm
         }
         stage ('Build') {
-            steps {
-                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
-            }
             sh "echo 'shell scripts to build project...'"
         }
         stage ('Tests') {
