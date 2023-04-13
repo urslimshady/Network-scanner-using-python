@@ -11,7 +11,7 @@ node {
         }
         stage ('Tests') {
             parallel 'static': {
-                make check || true
+                sh 'make check || true'
                 sh "echo 'shell scripts to run static tests...'"
             },
             'unit': {
