@@ -13,7 +13,7 @@ Here are some of the python code snippet to create a port scanner tool using:
 2. ICMP(It is not a port scanner, it is used to send ping to check whether the host is up or not)
 3. TCP scan
 
-TCP scan :
+## TCP scan :
 
 To establish a TCP connection, the host must perform a three way handshake.
 
