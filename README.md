@@ -9,7 +9,7 @@ Types of information that can be expected after running the port scanner.
 
 
 Here are some of the python code snippet to create a port scanner tool using:
-1. Socket
+1. Sockets
 2. ICMP(It is not a port scanner, it is used to send ping to check whether the host is up or not)
 3. TCP scan
 
