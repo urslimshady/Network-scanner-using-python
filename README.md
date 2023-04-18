@@ -3,7 +3,7 @@
 Port scanning can be considered as a monitoring(survellience) tool which is used in order to locate the open ports available on a particular host.
 
 Types of information that can be expected after running the port scanner.
-1. Open Ports informations
+1. Open Ports information
 2. Operating System informations
 3. Services that are running on host
 
