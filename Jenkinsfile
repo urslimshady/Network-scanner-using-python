@@ -1,8 +1,12 @@
 node {
     // Clean workspace before doing anything
     deleteDir()
-
+    
     try {
+        triggers {
+            githubPush()
+        }
+
         stage ('Clone') {
             checkout scm
         }
