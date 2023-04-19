@@ -7,14 +7,14 @@ node {
             checkout scm
         }
         stage ('Build') {
-            sh "echo 'shell script to build project..!'"
+            sh "echo 'shell script to build project.....!'"
         }
         stage ('Tests') {
             parallel 'static': {
-                sh "echo 'shell script to run static tests.!'"
+                sh "echo 'shell script to run static tests.....!'"
             },
             'unit': {
-                sh "echo 'shell script to run unit tests.!'"
+                sh "echo 'shell script to run unit tests.....!'"
             },
             'integration': {
                 sh "echo 'shell script to run integration tests.!'"
