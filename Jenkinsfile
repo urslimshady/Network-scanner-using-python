@@ -9,7 +9,7 @@ node {
         stage ('Build') {
             sh "echo 'shell script to build project.....!'"
         }
-        stage ('Tests') {
+        stage ('tests') {
             parallel 'static': {
                 sh "echo 'shell script to run static tests.....!'"
             },
@@ -25,8 +25,12 @@ node {
             sh "echo 'Hello there! just checking if everything is fine..'"
             sh "echo 'Done.....!!!!'"
         }
-    } catch (err) {
-        currentBuild.result = 'FAILED'
-        throw err
+    } 
+	catch (err) {
+        	currentBuild.result = 'FAILED'
+       		throw err
     }
+    triggers{
+	githubPush()
+   }
 }
