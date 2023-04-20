@@ -30,7 +30,4 @@ node {
         	currentBuild.result = 'FAILED'
        		throw err
     }
-    triggers{
-	githubPush()
-   }
 }
